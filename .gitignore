@@ -1,0 +1,49 @@
+# IDEs and editors
+*.iml
+*.db
+.idea
+overlays
+widgetsettings
+*.sublime-project
+*.sublime-workspace
+*.classpath
+*.project
+*.prefs
+.settings
+
+# Maven
+target/
+
+# Frontend
+node_modules
+bower_components
+.bower.json
+statics/**/dist
+node_tmp
+
+# Temp or generated files/directories
+.bin
+*.log
+*.log.1
+*.swp
+.h2.server.properties
+*.properties.backup
+logs
+.tmp
+tmp
+~$*.*
+.~lock.*
+*.lck
+.DS_Store
+
+# Database
+data/default/*.db
+*.lock.db
+*.trace.db
+
+
+# Backbase
+statics/dist
+cxp-exports/**
+!cxp-exports/pom.xml
+

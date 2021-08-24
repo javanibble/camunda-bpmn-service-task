@@ -3,7 +3,7 @@ The article contains a step-by-step guide on how to implement a BPMN Service Tas
 
 **Java Nibble Article:** [https://www.javanibble.com/implement-bpmn-service-task-in-camunda/](https://www.javanibble.com/implement-bpmn-service-task-in-camunda/)
 
-**Pre-Requisites**
+## Pre-Requisites
 The following is required to run the Spring Boot example:
 * [curl](https://www.javanibble.com/how-to-install-curl-on-macos-using-homebrew/)
 * jq
@@ -25,23 +25,24 @@ Use Camunda Modeller to model the process. The process model composes of four se
 * Deliver Coffee Order: Is a `Service Task` using `External` as implementation and topic value of `deliverCoffeeOrder`.
 
 
-## Compile and Run the Application
-Use the following command to compile the Spring Boot application making use of maven.
+## Compile & Run The Example
+### 1. Compile the application
+Use the following command to compile the Spring Boot application making use of maven:
 
-**Build Application**
-```bash
+```shell
 $ mvn clean install
 ```
 
+### 2. Run the application
 After you have successfully built the Camunda BPM Spring Boot application, the compiled artifact can be found in the
 target directory. Use the following command to start the Camunda BPM Spring Boot Application.
 
-**Run Application**
-```bash
+```shell
 $ maven spring-boot:run
 ```
 
-Once the application is started, run the following command in another terminal to send a message to the Spring Boot application. The process definition contains a single Service Task that invokes the Java Delegate called `logger` and it will print out the personal message to the console.
+### 3. Execute the example
+After the application has started, run the following command in another terminal:
 
 **Run the command: Start Process Instance**
 

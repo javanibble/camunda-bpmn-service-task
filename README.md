@@ -50,7 +50,7 @@ The following command instantiates a new instance of the `order-coffee` process 
 `order` with a value of `Espresso` to the process engine as part of the request body.
 
 ```shell
-$ ./start_process.sh
+$ ./start_process.sh 
 ```
 The script performs the following commands:
 ```shell

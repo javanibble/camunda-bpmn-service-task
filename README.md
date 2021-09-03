@@ -38,7 +38,7 @@ After you have successfully built the Camunda BPM Spring Boot application, the c
 target directory. Use the following command to start the Camunda BPM Spring Boot Application.
 
 ```shell
-$ maven spring-boot:run
+$ mvn spring-boot:run
 ```
 
 ### 3. Execute the example
